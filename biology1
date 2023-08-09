@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Odysseyware</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="stylesheet" href="/owsoo/assets/fonts-196e3fff33b4d9a4c252d69df64aa909.css" media="screen, projection"/>
+<script type="text/javascript" src="/owsoo/assets/jquery-b615c6d764b0ebef200c37de9db6a9a8.js" ></script>
+<script type="text/javascript">
+    $.grails = {
+        BASE_URL: '/owsoo/',
+        RESOURCE_URL: '/'
+    };
+</script>
+
+    <script type="text/javascript" src="/owsoo/assets/legacy-03ebc4778faefbba92364b462e7bdd7d.js" ></script>
+    <link rel="stylesheet" href="/owsoo/assets/legacy-c13d2893ac4c1e816321cdce475097d0.css" />
+
+<link rel="stylesheet" href="/owsoo/assets/theme_smoothness-bd4e6eb13b8c7b9c78970c9ca709dd72.css" />
+<link rel="shortcut icon" href="https://media-release.glynlyon.com/branding/images/odysseyware/favicon.ico" type="image/x-icon" />
+
+		<script type="text/javascript">
+            var CKEDITOR_BASEPATH = '/owsoo/assets/ckeditor4/';
+            var require = {
+                baseUrl:'https://media-release.glynlyon.com/globmedia'
+            };
+	   </script>
+        <script type="text/javascript" src="/owsoo/assets/ckeditor4/ckeditor-cae83c30b0e06feff055d626588b7b3b.js" ></script>
+        <script type="text/javascript" src="/owsoo/assets/assignment-e54f51d4c0702e65dbccd35c7dfc2b5b.js" ></script>
+        <link rel="stylesheet" href="/owsoo/assets/assignmentCss-e704e240322803dcdb3b096def62585f.css" />
+		
+    <meta name="layout" content="assignment">
+    <script type="text/javascript" src="/owsoo/assets/mathJaxJs-8ff2eb5bdcefc94288c9f569deafff48.js" ></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" src="/owsoo/assets/coursePreviewJs-445dbe72ed163c8d7ab82cf2bedb6f0a.js" ></script>
+    
+    <link rel="stylesheet" href="/owsoo/assets/coursePreviewCss-0b9e9a620b5061206ebfe9508b604fe4.css" />
+    <script src="https://media-release.glynlyon.com/globmedia/html5/animationmanager/js/animationmanager.js" type="text/javascript"></script>
+
+ 		<link rel="stylesheet" type="text/css" href="https://media-release.glynlyon.com/globmedia/html5/common/css/html5.css">
+        
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://media-release.glynlyon.com/branding/images/odysseyware/branding.css?v=5.4.0" />
+
+
+
+
+
+
+
+
+
+
+
+    
+        <script>
+            (function (apiKey) {
+                (function (p, e, n, d, o) {
+                    var v, w, x, y, z;
+                    o = p[d] = p[d] || {};
+                    o._q = o._q || [];
+                    v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track'];
+                    for (w = 0, x = v.length; w < x; ++w) (function (m) {
+                        o[m] = o[m] || function () {
+                            o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments, 0)));
+                        };
+                    })(v[w]);
+                    y = e.createElement(n);
+                    y.async = !0;
+                    y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+                    z = e.getElementsByTagName(n)[0];
+                    z.parentNode.insertBefore(y, z);
+                })(window, document, 'script', 'pendo');
+
+                pendo.initialize({
+                    visitor: {
+                        id: '059bd608-1bfe-4eae-a4e0-40811bbacb68',
+                        role: 'ADMIN',
+                        first_name: 'Nikala',
+                        last_name: 'Asante',
+                        email: 'kalaasante@gmail.com',
+                        full_Name: 'Nikala Asante'
+                    },
+
+                    account: {
+                        id: '1d208bd0-f90f-44bd-805a-3456316dd0c4',
+                        account: 'N1655731906',
+                        school: 'Whole Living Academy',
+                        brand: 'Odysseyware',
+                        campuses: [],
+                        customer: 'Whole Living Academy-Single User',
+                        states: ["Texas"],
+                        shard: 'owsoo7',
+                        environment: 'wholeliving.owschools.com'
+                    }
+                });
+            })('313a8ff2-59af-405e-5b51-403ea5440777');
+        </script>
+    
+
+
+
+
+    </head>
+    <body id="body">
+
+        <div id="assignmentHeaderBanner">
+          <div>
+            <table id="assignmentHeaderTable">
+              <col width="33%" />
+              <col width="33%" />
+              <col width="33%" />
+              <tr>
+                <td><a id="gl_logo" href="/owsoo/" style="margin:0px !important;"><img src="https://media-release.glynlyon.com/branding/images/odysseyware/logo.png" alt="" height="40" border="0"></a></td>
+                <td align="center" class='centerCell'>
+                    <div class='goToContainer'>
+                     
+                         
+
+<div id="goTo1" class='goTo'>
+    <button id='goToBtn1' type="button" class="goToButton ui-state-default ui-corner-all ui-button">
+        <span>Go To</span>
+        <i class="fa fa-arrow-circle-o-right goto-icon"></i>
+    </button>
+    <div id='tooltipContainer1' class='tooltipContainer hidden'>
+        <div id='tooltip1' class='tooltip'>
+        
+            
+                <div>
+                    <a id="goToPreviousButton" class="filter" href="/owsoo/">Previous</a>&nbsp
+                </div>
+            
+        
+            
+                <div>
+                    <a class="noFilter" href="/owsoo/">Home</a>&nbsp
+                </div>
+            
+        
+            
+                <div>
+                    <a class="noFilter" href="/owsoo/studentProgress/index">Assignment Alerts</a>&nbsp
+                </div>
+            
+        
+            
+                <div>
+                    <a class="noFilter" href="/owsoo/student/index">Students</a>&nbsp
+                </div>
+            
+        
+            
+            	
+            	    <div>
+            		    <a class="noFilter" href="/owsoo/enrollments/search">Course Enrollment</a>&nbsp
+            	    </div>
+            	
+            
+        
+            
+                <div>
+                    <a class="noFilter" href="/owsoo/gradebook/index#gradebook">Gradebook</a>&nbsp
+                </div>
+            
+        
+            
+                <div>
+                    <a class="filter" href="/owsoo/gradebook/index#gradebook">Current Student Gradebook</a>&nbsp
+                </div>
+            
+        
+            
+                <div>
+                    <a class="noFilter" href="/owsoo/gradebook/index#actionRequired">Action Required</a>&nbsp
+                </div>
+            
+        
+        </div>
+    </div>
+</div>
+
+                     
+                  	 </div>
+                </td>
+                <td class='rightCell'>
+                    <div class='bannerFontColor'>
+                        Logged in as Nikala Asante
+                        <form action="/owsoo/logout/index" method="post" class="logoutForm" ><input type="hidden" name="_method" value="DELETE" id="_method" />
+<input type="hidden" name="SYNCHRONIZER_TOKEN" value="ab54f96f-3507-423e-a656-93db813bb058" id="SYNCHRONIZER_TOKEN" />
+<input type="hidden" name="SYNCHRONIZER_URI" value="/owsoo/courseMgmt/section" id="SYNCHRONIZER_URI" />
+                            &nbsp;&nbsp;<a id="lout" href="#" class='bannerFontColor postLogout'>Logout</a>
+                        </form>
+                    </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        
+    <input id="lo" type="hidden" value="31522994"/>
+    <input id="customId" type="hidden" value=""/>
+    
+
+	<div id="rootAssignmentInfo" class="originalCourse ">
+		
+			<div class="assignment-title">
+				<div><b>Course Information</b></div>
+				<div><span class="fa fa-book assignment-title-icon"></span><span><b>Course:</b> Biology</span></div>
+				<div><span class="fa fa-folder-open assignment-title-icon"></span><span><b>Unit:</b> 1. BIOLOGY: THE STUDY OF LIFE</span></div>
+				<div><span class="fa fa-file-text-o assignment-title-icon"></span><span><b>Assignment:</b> 2. What is Life?</span></div>
+			</div>
+		
+
+		
+
+		
+			
+				
+
+<div id="dialog">
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    if(true == true) {
+        window.zEmbed || function (e, t) { var n, o, d, i, s, a = [], r = document.createElement("iframe"); window.zEmbed = function () { a.push(arguments) }, window.zE = window.zE || window.zEmbed, r.src = "javascript:false", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "display: none", d = document.getElementsByTagName("script"), d = d[d.length - 1], d.parentNode.insertBefore(r, d), i = r.contentWindow, s = i.document; try { o = s } catch (e) { n =  location.hostname, r.src = 'javascript:var d=document.open();d.domain="' + n + '";void(0);', o = s } o.open()._l = function () { var e = this.createElement("script"); n && (this.domain = n), e.id = "js-iframe-async", e.src = "https://assets.zendesk.com/embeddable_framework/main.js", this.t = +new Date, this.zendeskHost = "odysseyware.zendesk.com", this.zEQueue = a, this.body.appendChild(e) }, o.write('<body onload="document._l();">'), o.close() }();
+        zE(function () {
+            zE.show();
+
+            $zopim(function () {
+            // Make ajax call and set fields when user opens widget
+            window.$zopim.livechat.window.onShow(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: $.grails.createLink('help', 'getUserInformation'),
+                    success: function(data) {
+                        // Set the branding
+                        $zopim.livechat.prechatForm.setGreetings('Welcome ' + data.fullName  + ' to ' + data.brandName + ' Pre Chat Form');
+                        $zopim.livechat.window.setTitle(data.brandName + ' Chat Support');
+                        $zopim.livechat.concierge.setAvatar(data.brandingUrl);
+                        $zopim.livechat.concierge.setName(data.brandName + " Chat");
+                        $zopim.livechat.concierge.setTitle("");
+
+                        // Populate user identity fields
+                        zE.identify({
+                            name: data.fullName,
+                            email: data.userEmail,
+                            organization: data.schoolFullName
+                        });
+
+                        $zopim.livechat.departments.setVisitorDepartment('Support');
+                        $zopim.livechat.departments.filter('Support', data.brandName);
+                        $zopim.livechat.setOnConnected(function () {
+                            $zopim.livechat.setName(data.fullName);
+                        });
+
+                        // Pass the tags for ZenDesk support users to identify user
+                        $zopim.livechat.addTags(
+                            'Type-'+data.userType,
+                            'FullName-'+ data.fullName,
+                            'CustomerID-' + data.customerId,
+                            'SchoolUUID-' + data.schoolUuid,
+                            'SchoolName-' + data.schoolFullName,
+                            'AppUserID-' + data.userId,
+                            'AppUserUUID-' + data.userUuid,
+                            'SessionID-' + data.sessionId,
+                            'UserName-' + data.userUserName,
+                            'SchoolID-' + data.serverName,
+                            'ProductType-' + data.brandName
+                        );
+                    }
+                });
+            });
+            });
+        });
+    }
+});</script>
+
+			
+		
+
+	</div>
+
+
+
+    
+        <div id="section_0" class="section">
+            <div id="presentation_0" class="presentation">
+                <div class="presentationContent">
+      <div id="course_header">
+        <h2 class="assignment_title">WHAT IS LIFE?</h2>
+      </div>
+      <p>Most of us can tell a dog from an aluminum can. What about the cases that are not so clear-cut? How do you know when a person who has been injured in an automobile accident is dead? Is a bouquet of cut flowers dead or alive? The flowers are eventually tossed into the trash can. When did they die? Did the flowers die when they were cut, thrown into the trash, or sometime between? These questions are difficult to answer. This lesson will explore life and its characteristics.</p>
+      <div id="objectives"><h1>Objectives</h1><ul><li>Identify the characteristics of life.</li><li>Describe how an organism exhibiting all of the characteristics of life is considered to be alive.</li></ul></div>
+      <div id="vocabulary">
+        <div id="vocabulary"><h1>Vocabulary</h1></div><div class="vocabularyList"><table class="vocabTable" data-vocab-group="1" data-vocab-games="true" data-vocab-count="5"><tr><td width="3%"><div class="audioContainer"><div class="audioPlayer gl-audio-file" data-audio-path="https://media-release.glynlyon.com/o_bio_2016/1/voc_cell.mp3" data-expand="false"></div></div></td><td width="25%"><b>cell</b></td><td><vocab_definition>the basic unit of life</vocab_definition></td></tr><tr><td width="3%"><div class="audioContainer"><div class="audioPlayer gl-audio-file" data-audio-path="https://media-release.glynlyon.com/o_bio_2016/1/voc_dna.mp3" data-expand="false"></div></div></td><td width="25%"><b>DNA</b></td><td><vocab_definition>a giant molecule consisting of the sugar deoxyribose, phosphates, and nitrogen bases; contains the coded genetic information</vocab_definition></td></tr><tr><td width="3%"><div class="audioContainer"><div class="audioPlayer gl-audio-file" data-audio-path="https://media-release.glynlyon.com/o_bio_2016/1/voc_homeostasis.mp3" data-expand="false"></div></div></td><td width="25%"><b>homeostasis</b></td><td><vocab_definition>the maintenance of a constant internal body environment by an organism's body</vocab_definition></td></tr><tr><td width="3%"><div class="audioContainer"><div class="audioPlayer gl-audio-file" data-audio-path="https://media-release.glynlyon.com/o_bio_2016/1/voc_metabolism.mp3" data-expand="false"></div></div></td><td width="25%"><b>metabolism</b></td><td><vocab_definition>all of the chemical reactions in the organism for maintenance of the processes of life</vocab_definition></td></tr><tr><td width="3%"><div class="audioContainer"><div class="audioPlayer gl-audio-file" data-audio-path="https://media-release.glynlyon.com/o_bio_2016/1/voc_organelle.mp3" data-expand="false"></div></div></td><td width="25%"><b>organelle</b></td><td><vocab_definition>a small structure within the cell that serves specialized functions</vocab_definition></td></tr></table></div>
+      </div>
+      <p><br/></p>
+      <br/>
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                <div id="problemMain_6277756" ident="1" pos="1" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277756</span><span class="pType ui-priority-secondary">Matching</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277756" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277756" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277756" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277756" size="3" maxlength="3"></input><input id="updatepoints_6277756" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody Matching">
+          <p><strong></strong></p>
+          <p><strong><strong>Match the following.</strong></strong></p>
+        <div class="matchingQuestionContainer"><table class="matchingProblem" width="90%"><col width="3%"></col><col width="52%"></col><col width="35%"></col><col width="10%"></col><tr><td id="1_6277756_Matching_count" class="1"><b>1.</b></td><td id="1_6277756_Matching_item"><span>the basic unit of life</span></td><td><input style="width: 30px;" type="text" autocomplete="off" autocorrect="off" id="id_1691541052731_a9a72a5d5a241e24fdc2e0b546240563_6277756_Matching" ident="a9a72a5d5a241e24fdc2e0b546240563" name="Matching.a9a72a5d5a241e24fdc2e0b546240563" class="matchingInput"></input><span class="matchingInputLabel">homeostasis</span></td><td><span class="matchingKey"></span></td></tr><tr><td id="2_6277756_Matching_count" class="2"><b>2.</b></td><td id="2_6277756_Matching_item"><span>a giant molecule consisting of the sugar deoxyribose, phosphates, and nitrogen bases; contains the coded genetic information</span></td><td><input style="width: 30px;" type="text" autocomplete="off" autocorrect="off" id="id_1691541052670_d1c412ef88b8d25be8a6f985aa36430c_6277756_Matching" ident="d1c412ef88b8d25be8a6f985aa36430c" name="Matching.d1c412ef88b8d25be8a6f985aa36430c" class="matchingInput"></input><span class="matchingInputLabel">organelle</span></td><td><span class="matchingKey"></span></td></tr><tr><td id="3_6277756_Matching_count" class="3"><b>3.</b></td><td id="3_6277756_Matching_item"><span>the maintenance of a constant internal body environment by an organism's body</span></td><td><input style="width: 30px;" type="text" autocomplete="off" autocorrect="off" id="id_1691541052743_ee7316068799b6df73d23bc1bc6c5703_6277756_Matching" ident="ee7316068799b6df73d23bc1bc6c5703" name="Matching.ee7316068799b6df73d23bc1bc6c5703" class="matchingInput"></input><span class="matchingInputLabel">metabolism</span></td><td><span class="matchingKey"></span></td></tr><tr><td id="4_6277756_Matching_count" class="4"><b>4.</b></td><td id="4_6277756_Matching_item"><span>all of the chemical reactions in the organism for maintenance of the processes of life</span></td><td><input style="width: 30px;" type="text" autocomplete="off" autocorrect="off" id="id_1691541052705_cebd72b53d214f1dc6ee7838c5139359_6277756_Matching" ident="cebd72b53d214f1dc6ee7838c5139359" name="Matching.cebd72b53d214f1dc6ee7838c5139359" class="matchingInput"></input><span class="matchingInputLabel">DNA</span></td><td><span class="matchingKey"></span></td></tr><tr><td id="5_6277756_Matching_count" class="5"><b>5.</b></td><td id="5_6277756_Matching_item"><span>a small structure within the cell that serves specialized functions</span></td><td><input style="width: 30px;" type="text" autocomplete="off" autocorrect="off" id="id_1691541052680_43688df05d81f4f3b1b8cfe694a8ab8f_6277756_Matching" ident="43688df05d81f4f3b1b8cfe694a8ab8f" name="Matching.43688df05d81f4f3b1b8cfe694a8ab8f" class="matchingInput"></input><span class="matchingInputLabel">cell</span></td><td><span class="matchingKey"></span></td></tr></table></div></div></div>
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+        <div id="section_1" class="section">
+            <div id="presentation_1" class="presentation">
+                <div class="presentationContent">
+      <div class="section">
+        <h3>Can You Define Life?</h3>
+      </div>
+      <p>Scientists have difficulty formulating a definition of <em>life</em> that will fit all situations. The solution that biologists have chosen is to describe the <em>characteristics of life.</em> If an organism exhibits all of these characteristics, it is considered to be alive. If it does not exhibit each characteristic, it is considered to be either dead or inanimate (a nonliving object).</p>
+      <p><img align="right" src="https://media-release.glynlyon.com/o_bio_2016/1/img_blob.jpg"></img>Imagine walking in the woods and coming across a small lump in the middle of your path. It resembles a lump of sap from a tree. It's something you've never seen before. Could this lump be alive? What are some things that you might do or look for to determine if it is or isn't alive?</p>
+      <p><span class="inline_header">Movement.</span> Usually if something moves on its own, it's alive, right? Your hamster or dog runs around. Fish swim in the ocean. All these animals move. But what about a tree or bush? These two things don't move by themselves, but they're definitely alive. So maybe movement isn't a good characteristic to use.</p>
+      <p><span class="inline_header">Sensitivity.</span> So the lump is just sitting there without movement. You might poke at it to see if it responds or moves. Almost all living things have specialized structures that respond to outside stimulus. Living organisms show responses to changes in temperature, light, chemicals, and other aspects of the environment. Plants grow toward light, and if it's cold outside, you grab a sweater! But not all stimuli will produce a response you can see. The response may be either internal or external. This goes back to the tree or bush. If you poke or kick a tree, it won't move, but that doesn't mean it's not alive.</p>
+      <p><span class="inline_header">Complexity.</span> The small lump on your hiking trail hasn't moved on its own or from your touch. So you may pick it up and examine it. How complex is it? All living things, from the human body to the simplest <dfn>cell</dfn> of bacteria, are complex. Complexity is essential to life forms. However, your computer and television are complex as well. And these items aren't alive. So even if the lump is complex, this doesn't give it "life" status.</p>
+      <p>By the time you leave the woods, you may have just thrown the lump into a pond&#x2013;alive or not, and forgotten about it. How important is a definition of life? To scientists who are studying new substances on earth or other planets, characteristics of life are needed to compare the known with the unknown. So, what types of characteristics do scientists use? Some incorporate the aforementioned characteristics of movement, sensitivity, and complexity, but again, these should not be used alone. Instead, there are other characteristics that exemplify the theme of life. You will explore these characteristics in the science of biology.</p>
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                <div id="problemMain_6277757" ident="2" pos="2" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277757</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277757" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277757" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277757" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277757" size="3" maxlength="3"></input><input id="updatepoints_6277757" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>It is difficult to determine a definition for life that is suitable for all situations. Instead of defining life, biologists have decided to _____.</strong></strong></p>
+        </div><div data-type="option" data-identifier="V4"><span>determine something is living if it responds to outside stimuli</span></div><div data-type="option" data-identifier="V1"><span>describe the characteristics of life</span></div><div data-type="option" data-identifier="V2"><span>determine if something is living or non-living based on its complexity</span></div><div data-type="option" data-identifier="V3"><span>qualify life based on whether something can move or not </span></div></div></div><div id="problemMain_6277758" ident="3" pos="3" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277758</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277758" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277758" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277758" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277758" size="3" maxlength="3"></input><input id="updatepoints_6277758" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>If something exhibits all of the characteristics of life, it is considered to be _____.</strong></strong></p>
+        </div><div data-type="option" data-identifier="V4"><span>dead</span></div><div data-type="option" data-identifier="V1"><span>inanimate</span></div><div data-type="option" data-identifier="V2"><span>non-living</span></div><div data-type="option" data-identifier="V3"><span>alive</span></div></div></div>
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+        <div id="section_2" class="section">
+            <div id="presentation_2" class="presentation">
+                <div class="presentationContent">
+      <div class="section">
+        <h3>Characteristics of Life</h3>
+      </div>
+      <p>There are some characteristics that are always present with a living organism. Living organisms are unique in that they tend to possess not one, but <em>all</em> of the following characteristics simultaneously. As you continue to study biology, keep these characteristics in mind because they will reappear often.</p>
+      <p align="center">
+        <div class="videoPlayerContainer with-poster"><div id="o_biou01c01l01d_2_0_mm2_1" style="height: 450px; width: 745px;" class="video-js"><video poster="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_1.jpg" preload="auto" data-setup="{}" controls="false"><source type="video/mp4" src="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_1.mp4"></source><source type="video/webm" src="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_1.webm"></source></video></div><div class="transcript-container" style="display: none;"><div class="transcript" data-transcript="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_1.pff"></div></div></div></p>
+      <p align="center">
+        <div class="videoPlayerContainer with-poster"><div id="o_biou01c01l01d_2_0_mm3_1" style="height: 450px; width: 745px;" class="video-js"><video poster="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_2.jpg" preload="auto" data-setup="{}" controls="false"><source type="video/mp4" src="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_2.mp4"></source><source type="video/webm" src="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_2.webm"></source></video></div><div class="transcript-container" style="display: none;"><div class="transcript" data-transcript="https://media-release.glynlyon.com/o_bio_2016/1/di_characteristics_of_living_things_2.pff"></div></div></div></p>
+      <p align="center"><img src="https://media-release.glynlyon.com/o_bio_2016/1/img_metabolism.gif"></img></p>
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                <div id="problemMain_6277759" ident="4" pos="4" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277759</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277759" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277759" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277759" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277759" size="3" maxlength="3"></input><input id="updatepoints_6277759" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>Which of the following is not a characteristic of life?</strong></strong></p>
+        </div><div data-type="option" data-identifier="V4"><span>The ability to obtain and use energy</span></div><div data-type="option" data-identifier="V1"><span>The ability to respond to the environment or stimuli</span></div><div data-type="option" data-identifier="V2"><span>The ability to move</span></div><div data-type="option" data-identifier="V3"><span>The ability to reproduce</span></div></div></div><div id="problemMain_6277760" ident="5" pos="5" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277760</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277760" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277760" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277760" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277760" size="3" maxlength="3"></input><input id="updatepoints_6277760" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>Scientists distinguish whether an entity is living or nonliving by describing the _____ of life.</strong></strong></p>
+        </div><div data-type="option" data-identifier="V2"><span>value</span></div><div data-type="option" data-identifier="V4"><span>quality </span></div><div data-type="option" data-identifier="V1"><span>characteristics</span></div><div data-type="option" data-identifier="V3"><span>length</span></div></div></div><div id="problemMain_6277761" ident="6" pos="6" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277761</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277761" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277761" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277761" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277761" size="3" maxlength="3"></input><input id="updatepoints_6277761" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>The ability to obtain nutrients, take in oxygen, and transform these items to energy and cellular components is called _____.</strong></strong></p>
+        </div><div data-type="option" data-identifier="V1"><span>life</span></div><div data-type="option" data-identifier="V3"><span>a life cycle</span></div><div data-type="option" data-identifier="V2"><span>metabolism</span></div><div data-type="option" data-identifier="V4"><span>continuation </span></div></div></div>
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+        <div id="section_3" class="section">
+            <div id="presentation_3" class="presentation">
+                <div class="presentationContent">
+      <div class="section">
+        <h3>Reproduction and Heredity</h3>
+      </div>
+      <p>One of the most important principles of life is the need for living things to reproduce themselves. Reproduction creates new life in one's own likeness. Every new organism begins as a single, tiny cell. The process of forming a new organism is not haphazard. The events in reproduction require precise coordination of cellular and environmental factors. Survival of the species depends on newly formed organisms, which grow to maturity and reproduce themselves.</p>
+      <p>The ability to produce exact or close copies of the original organism, called <em>reproduction</em>, is important for the continuation of life. The organism increases in cell size or in cell number after birth. A change in either cell size or cell number is called <em>growth.</em> Living things grow in size and change in appearance and functions.</p>
+      <p><span class="inline_header">Heredity.</span> All living things contain some type of genetic information that can be passed on from generation to generation. Even the spores of fern plants contain a "blueprint" of the fern's characteristics so that it can produce offspring similar to itself. This blueprint of genetic information is known as deoxyribonucleic acid or <dfn>DNA</dfn>. DNA is the set of instructions in a cell that make it grow into a tree as opposed to a shrub, or into a kidney as opposed to a heart.</p>
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                <div id="problemMain_6277762" ident="7" pos="7" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277762</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277762" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277762" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277762" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277762" size="3" maxlength="3"></input><input id="updatepoints_6277762" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>If a rock disintegrates by chemical weathering into small grains of similar composition, would this be considered reproduction?</strong></strong></p>
+        </div><div data-type="option" data-identifier="V1"><span>yes</span></div><div data-type="option" data-identifier="V2"><span>no</span></div></div></div>
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+        <div id="section_4" class="section">
+            <div id="presentation_4" class="presentation">
+                <div class="presentationContent">
+      <div class="section">
+        <h3>Homeostasis</h3>
+      </div>
+      <p>If a balloon fills with water, does it know to stop the water before it bursts and breaks? No, it doesn't because a balloon isn't alive. However, all living things can maintain an internal balance, called <dfn>homeostasis</dfn>. Whether it's a one-celled organism like an amoeba or a multi-celled organism like a human, an organism knows when it needs or doesn't need something. For instance, cells in the human body absorb what they need and excrete what they don't need.</p>
+      <p align="center">
+        <div class="videoPlayerContainer with-poster"><div id="o_biou01c01l01d_2_0_mm1_1" style="height: 300px; width: 400px;" class="video-js"><video poster="https://media-release.glynlyon.com/o_bio_2016/1/anm_cell_homeo.png" preload="auto" data-setup="{}" controls="false"><source type="video/mp4" src="https://media-release.glynlyon.com/o_bio_2016/1/anm_cell_homeo.mp4"></source><source type="video/webm" src="https://media-release.glynlyon.com/o_bio_2016/1/anm_cell_homeo.webm"></source></video></div></div></p>
+      <p>The human body must always maintain a certain body temperature to maintain balance, or homeostasis. Various cells, organs, and systems of the body conduct different processes to ensure that this is achieved. Another term used with homeostasis is adaptability. Organisms may adapt to changes in the environment. The capacity to change, or evolution, can be accomplished within the initial organism or through successive generations but always within limited boundaries.</p>
+      <p align="center"><img src="https://media-release.glynlyon.com/o_bio_2016/1/img_flounder2.gif"></img></p>
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                <div id="problemMain_6277763" ident="8" pos="8" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277763</span><span class="pType ui-priority-secondary">MultipleSelect</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277763" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277763" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277763" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277763" size="3" maxlength="3"></input><input id="updatepoints_6277763" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleSelect"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong> Select all that apply.</strong></strong></p>
+          <p><strong><strong> Characteristics that are always present in living organisms are _____. </strong></strong></p>
+        </div><div data-type="option" data-identifier="3"><span>metabolism</span></div><div data-type="option" data-identifier="2"><span>homeostasis</span></div><div data-type="option" data-identifier="1"><span>complexity</span></div><div data-type="option" data-identifier="6"><span>cells</span></div><div data-type="option" data-identifier="7"><span>sensitivity</span></div><div data-type="option" data-identifier="4"><span>heredity</span></div><div data-type="option" data-identifier="5"><span>movement</span></div><div data-type="option" data-identifier="8"><span>reproduction</span></div></div></div><div id="problemMain_6277764" ident="9" pos="9" class="problemMain ui-widget-content" reassigned=""><div class="problemHeader ui-widget-header"><span>Question #</span><span class="qDisplayNumber">6277764</span><span class="pType ui-priority-secondary">MultipleChoice</span></div><div class="problemSubheader"><table class="problem-controls"><tr><td><input type="button" class="helpButton" tabindex="-1" id="help_6277764" value="Help"></input><input type="button" tabindex="-1" id="showAnswer_6277764" onclick="showQuestionAnswer(this)" value="Show Answer"></input><input type="button" tabindex="-1" id="reassign_6277764" class="reassignButton" value="Reassign"></input></td><td align="right"><span class="pointsReceived"><b>Points Received: </b><input id="pointsreceived_6277764" size="3" maxlength="3"></input><input id="updatepoints_6277764" type="button" value="Update" onclick="updatePointsReceived(this)"></input></span></td></tr></table></div><div class="problemBody MultipleChoice"><div data-type="prompt">
+          <p><strong></strong></p>
+          <p><strong><strong>The ability of an organism to change internally or externally in relation to changes in the environment is called _____.</strong></strong></p>
+        </div><div data-type="option" data-identifier="V2"><span>complexity</span></div><div data-type="option" data-identifier="V3"><span>heredity</span></div><div data-type="option" data-identifier="V4"><span>homeostasis</span></div><div data-type="option" data-identifier="V1"><span>reproduction</span></div></div></div>
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+        <div id="section_5" class="section">
+            <div id="presentation_5" class="presentation">
+                <div class="presentationContent">
+      <div class="synopsis"><h1>Let's Review!</h1></div>
+        <p>In this lesson you have learned:</p>
+        <ul>
+          <li>How to identify the characteristics of life; and</li>
+          <li>To understand that an organism exhibiting all of the characteristics of life is considered to be alive.</li>
+        </ul>
+      
+    </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="questions">
+                
+                <span class="copyright">© 2004, 2006, 2009, 2011, 2016 Glynlyon, Inc.</span>
+            </div>
+        </div>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        animationmanager.load();
+    });
+    </script>
+	
+    
+        <div id="vocab-group-1" class="modal fade in vocab-games-arcade">
+            
+                    
+                        <div id="vocabGame_spellingbee_1" class="vocab-game-thumbnail" data-group-id="vocab-group-1" data-game-id="vocabGame_dialog_spellingbee_1">
+                            <div class="vocab-game-thumb-image" style="background-image: url(https://media-release.glynlyon.com/globmedia/html5/dla_spellingbee/media/arcade-thumb-spellingbee.png);"></div>
+                            <div class="vocab-game-thumb-title">Spelling Bee</div>
+                        </div>
+                    
+                        <div id="vocabGame_flashcards_1" class="vocab-game-thumbnail" data-group-id="vocab-group-1" data-game-id="vocabGame_dialog_flashcards_1">
+                            <div class="vocab-game-thumb-image" style="background-image: url(https://media-release.glynlyon.com/globmedia/html5/dla_flashcards/media/arcade-thumb-flashcards.png);"></div>
+                            <div class="vocab-game-thumb-title">Flash Cards</div>
+                        </div>
+                    
+            
+        </div>
+    
+    
+        <div data-vocab-group="1" class="vocab-game-wrapper">
+            
+                <div class="modal fade in vocab-game spellingbee " id="vocabGame_dialog_spellingbee_1" data-game-name="spellingbee" data-game-title="Spelling Bee">
+                    
+                    <div id="vocabGame_spellingbee_1" style="height:430px;width:745px"
+                         data-data-basepath="https://media-release.glynlyon.com/o_bio_2016/1/"
+                         data-asset-basepath="https://media-release.glynlyon.com/globmedia/html5"
+                         data-media-basepath="https://media-release.glynlyon.com/globmedia"
+                         data-am-dla="/owsoo/game/getVocabList/31522994?type=lo&amp;group=1"
+                         data-am-controller="https://media-release.glynlyon.com/globmedia/html5/dla_spellingbee/js/spellingbee.js"
+                         class="animationContainer animation"></div>
+                    
+                </div>
+            
+                <div class="modal fade in vocab-game flashcards " id="vocabGame_dialog_flashcards_1" data-game-name="flashcards" data-game-title="Flash Cards">
+                    
+                    <div id="vocabGame_flashcards_1" style="height:430px;width:745px"
+                         data-data-basepath="https://media-release.glynlyon.com/o_bio_2016/1/"
+                         data-asset-basepath="https://media-release.glynlyon.com/globmedia/html5"
+                         data-media-basepath="https://media-release.glynlyon.com/globmedia"
+                         data-am-dla="/owsoo/game/getVocabList/31522994?type=lo&amp;group=1"
+                         data-am-controller="https://media-release.glynlyon.com/globmedia/html5/dla_flashcards/js/flashcards.js"
+                         class="animationContainer animation"></div>
+                    
+                </div>
+            
+        </div>
+    
+
+
+
+
+	    <!--[if !IE 8]><!-->
+	    <script src="https://media-release.glynlyon.com/globmedia/html5/animationmanager/js/animationmanager.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+            //show teacher modal for assets
+            function showAssetModal(assetId, assetWidth) {
+
+                var $modal = null;
+                assetWidth += 20; //add extra padding
+
+                //add asset into dialog wrapper
+                $modal = $('<div>', { id : 'dialog-'+assetId });
+                $modal.append($('#'+assetId).show());
+
+                //show dialog
+                $modal.dialog({
+                    width : assetWidth
+                });
+
+            }
+
+            if (typeof(animationmanager) != 'undefined') {
+                animationmanager.loadAllOnReady = false;
+                animationmanager.showAssetModal = showAssetModal;
+            }
+        </script>
+		<!--<![endif]-->
+    </body>
+</html>
